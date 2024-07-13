@@ -3,9 +3,26 @@
 ## Metode Wegihted Product
 Dalam Sistem Pengambil Keputusan, metode Weighted Product muncul sebagai alat yang berguna untuk memberikan pemahaman yang lebih mendalam. WP adalah salah satu metode pengambilan keputusan yang memungkinkan penimbangan bobot pada setiap kriteria, yang kemudian digunakan untuk mengevaluasi dan membandingkan alternatif yang ada. Konsep dasar WP diantaranya melibatkan normalisasi data dan perhitungan nilai produk untuk setiap alternatif, yang kemudian digunakan untuk menghasilkan vektor Preferensi Relatif (Vi) yang menentukan peringkat alternatif. Dalam konteks proyek ini, maka akan diimplementasikan Weighted Product pada data yang telah dipilih, dengan tujuan memberikan peringkat Kandidat Karyawan sebagai alternatif-alternatif yang ada berdasarkan kriteria tertentu yang diukur.
 
+## Studi Kasus
+Studi kasus berfokus pada industri teknologi, khususnya dalam manajemen karyawan. 
+Seiring dengan pertumbuhan perusahaan di bidang teknologi, manajemen karyawan menjadi aspek 
+krusial untuk menjaga keberlanjutan operasional dan inovasi. Dengan jumlah karyawan yang 
+bervariasi, dari yang berpengalaman hingga yang baru bergabung, perusahaan perlu 
+mengidentifikasi karyawan yang memiliki potensi untuk dipromosikan atau mendapatkan tindakan 
+lebih lanjut. Tujuan utama dari studi kasus ini adalah memberikan landasan metodologis, dan 
+Weighted Product dipilih sebagai metode evaluasi yang dapat menyaring karyawan berdasarkan 
+kriteria-kriteria tertentu. 
+Dalam konteks ini, metode Weighted Product digunakan untuk menilai dan 
+membandingkan karyawan-karyawan berdasarkan sejumlah atribut yang relevan dengan kriteria 
+promosi. Penggunaan metode ini memungkinkan perusahaan untuk memberikan bobot yang sesuai 
+dengan tingkat signifikansi masing-masing kriteria, sehingga pengambilan keputusan promosi 
+dapat dilakukan dengan lebih objektif. Studi kasus ini mencerminkan tantangan umum dalam 
+industri teknologi, di mana keberhasilan perusahaan tidak hanya ditentukan oleh teknologi yang 
+digunakan, tetapi juga oleh keunggulan sumber daya manusia yang dimilikinya.
+
 ## Sumber Data
 Sumber data yang digunakan dalam projek ini diambil dari Kaggle berikut : https://www.kaggle.com/datasets/sanjanchaudhari/employees-performance-for-hr-analytics
-<img align="center" width="700" src="Sumber_Data.png" />
+<img align="center" width="800" src="Sumber_Data.png" />
 
 ##  Proses Analisis 
 Proses analisis pertama yang dilakukan adalah melakukan seleksi atribut pada sumber data. 
@@ -44,5 +61,5 @@ Berikut merupakan Langkah - Langkah menggunakan Python dalam membangun model Wei
 8. Menginstansiasi Model dan Hasil
 
 ## Result
-<img align="center" width="500" src="Hasil Analisis Weighted Product_1.png" />
-<img align="center" width="500" src="Hasil Analisis Weighted Product_2.png" />
+<img align="center" width="800" src="Hasil Analisis Weighted Product_1.png" />
+<img align="center" width="800" src="Hasil Analisis Weighted Product_2.png" />
