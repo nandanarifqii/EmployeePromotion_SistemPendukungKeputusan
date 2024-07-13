@@ -3,5 +3,34 @@
 ## Metode Wegihted Product
 Dalam Sistem Pengambil Keputusan, metode Weighted Product muncul sebagai alat yang berguna untuk memberikan pemahaman yang lebih mendalam. WP adalah salah satu metode pengambilan keputusan yang memungkinkan penimbangan bobot pada setiap kriteria, yang kemudian digunakan untuk mengevaluasi dan membandingkan alternatif yang ada. Konsep dasar WP diantaranya melibatkan normalisasi data dan perhitungan nilai produk untuk setiap alternatif, yang kemudian digunakan untuk menghasilkan vektor Preferensi Relatif (Vi) yang menentukan peringkat alternatif. Dalam konteks proyek ini, maka akan diimplementasikan Weighted Product pada data yang telah dipilih, dengan tujuan memberikan peringkat Kandidat Karyawan sebagai alternatif-alternatif yang ada berdasarkan kriteria tertentu yang diukur.
 
+## Sumber Data
+Sumber data yang digunakan dalam projek ini diambil dari Kaggle berikut : https://www.kaggle.com/datasets/sanjanchaudhari/employees-performance-for-hr-analytics
+<img align="center" width="1000" src="Sumber_Data.png" />
+
+##  Proses Analisis 
+Proses analisis pertama yang dilakukan adalah melakukan seleksi atribut pada sumber data. 
+Dimana tidak semua atribut yang terdapat pada sumber data tidak diperlukan dalam menentukan 
+keputusan. Dari 12 atribut pada sumber data, diambil 7 diantaranya, yakni Previous Year Rating, 
+Training Score, Length of Service, Awards, No of Training, Age, dan Key Performance Indikator 
+(KPI) dengan alasan bahwa atribut-atribut tersebut terkait langsung dengan kinerja dan kontribusi 
+positif dari karyawan terhadap perusahaan. Atribut-atribut yang dipakai merupakan kriteria final 
+yang akan dipilih dalam pemeringkatan untuk promosi karyawan. 
+Setelah kriteria yang akan dipakai telah ditentukan, selanjutnya adalah dilakukan 
+perangkingan serta pemberian bobot pada masing- masing kriteria tersebut. Dari analisis yang 
+dilakukan, diperoleh perangkingan sebagai berikut :  
+1. Previous Year Rating  dengan bobot 0.20 
+2. Training Score dengan bobot 0.18 
+3. Length of dengan bobot Service 0.18 
+4. Awards dengan bobot 0.14 
+5. No of Trainings dengan bobot 0.1 
+6. Age dengan bobot 0.1 
+7. KPI dengan bobot 0.1 
+Setelah masing-masing kriteria telah dirangking dan diberi bobot, selanjutnya adalah 
+membuat Tabel Bobot Kriteria ID Karyawan yang akan dipilih untuk Promosi Jabatan dengan 7 Kriteria dan 10 Kandidat Karyawan.
+
+Langkah - Langkah :
+
+
+## Result
 <img align="center" width="1000" src="Hasil Analisis Weighted Product_1.png" />
 <img align="center" width="1000" src="Hasil Analisis Weighted Product_2.png" />
