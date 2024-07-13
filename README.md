@@ -28,8 +28,20 @@ dilakukan, diperoleh perangkingan sebagai berikut :
 Setelah masing-masing kriteria telah dirangking dan diberi bobot, selanjutnya adalah 
 membuat Tabel Bobot Kriteria ID Karyawan yang akan dipilih untuk Promosi Jabatan dengan 7 Kriteria dan 10 Kandidat Karyawan.
 
-Langkah - Langkah :
+Pada file Laporan, terdapat 3 Versi Perhitungan dalam Implementasi Metode Wegihted Product :
+1. Perhitungan manual menggunakan rumus
+2. Menggunakan Fungsi Excel
+3. Membangun model Weigthed Product menggunakan Pytohn
 
+Berikut merupakan Langkah - Langkah menggunakan Python dalam membangun model Weighted Product:
+1. Import Library dan Class WeightedProduct
+2. Membuat Class WeightedProductModel 
+3. Membuat Fungsi normalize_data 
+4. Membuat Fungsi calculate_product_values  
+5. Membuat Fungsi calculate_si_vector, calculate_vi_vector & Fungsi Dataframe Hasil
+6. Membuat Fungsi rank_alternatives
+7. Input 10 Data sampel dalam bentuk array
+8. Menginstansiasi Model dan Hasil
 
 ## Result
 <img align="center" width="1000" src="Hasil Analisis Weighted Product_1.png" />
