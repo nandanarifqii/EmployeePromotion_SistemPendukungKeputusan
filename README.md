@@ -22,7 +22,7 @@ digunakan, tetapi juga oleh keunggulan sumber daya manusia yang dimilikinya.
 
 ## Sumber Data
 Sumber data yang digunakan dalam projek ini diambil dari Kaggle berikut : https://www.kaggle.com/datasets/sanjanchaudhari/employees-performance-for-hr-analytics
-<img align="center" width="800" src="Sumber_Data.png" />
+<img align="center" width="700" src="Sumber_Data.png" />
 
 ##  Proses Analisis 
 Proses analisis pertama yang dilakukan adalah melakukan seleksi atribut pada sumber data. 
