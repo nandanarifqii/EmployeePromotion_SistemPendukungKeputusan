@@ -21,8 +21,8 @@ industri teknologi, di mana keberhasilan perusahaan tidak hanya ditentukan oleh 
 digunakan, tetapi juga oleh keunggulan sumber daya manusia yang dimilikinya.
 
 ## Sumber Data
-Sumber data yang digunakan dalam projek ini diambil dari Kaggle berikut : https://www.kaggle.com/datasets/sanjanchaudhari/employees-performance-for-hr-analytics
 <img align="center" width="700" src="Sumber_Data.png" />
+Sumber data yang digunakan dalam projek ini diambil dari Kaggle berikut : https://www.kaggle.com/datasets/sanjanchaudhari/employees-performance-for-hr-analytics
 
 ##  Proses Analisis 
 Proses analisis pertama yang dilakukan adalah melakukan seleksi atribut pada sumber data. 
