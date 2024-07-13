@@ -5,7 +5,7 @@ Dalam Sistem Pengambil Keputusan, metode Weighted Product muncul sebagai alat ya
 
 ## Sumber Data
 Sumber data yang digunakan dalam projek ini diambil dari Kaggle berikut : https://www.kaggle.com/datasets/sanjanchaudhari/employees-performance-for-hr-analytics
-<img align="center" width="1000" src="Sumber_Data.png" />
+<img align="center" width="200" src="Sumber_Data.png" />
 
 ##  Proses Analisis 
 Proses analisis pertama yang dilakukan adalah melakukan seleksi atribut pada sumber data. 
@@ -44,5 +44,5 @@ Berikut merupakan Langkah - Langkah menggunakan Python dalam membangun model Wei
 8. Menginstansiasi Model dan Hasil
 
 ## Result
-<img align="center" width="1000" src="Hasil Analisis Weighted Product_1.png" />
-<img align="center" width="1000" src="Hasil Analisis Weighted Product_2.png" />
+<img align="center" width="100" src="Hasil Analisis Weighted Product_1.png" />
+<img align="center" width="100" src="Hasil Analisis Weighted Product_2.png" />
